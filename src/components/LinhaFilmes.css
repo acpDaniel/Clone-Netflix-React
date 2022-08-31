@@ -1,0 +1,53 @@
+.LinhasFilmes{
+    margin-bottom: 30px;
+}
+
+.LinhasFilmes h2{
+    margin:0px 0px 0px 30px;
+}
+
+.movieRow--listarea{
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.movieRow--item{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.movieRow--item img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.movieRow--item img:hover{
+    transform: scale(1);
+}
+
+.icons--left, .icons--right{
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    display: flex;
+    z-index: 99;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    
+}
+.icons--left{
+    left: 0;
+}
+.icons--right{
+    right: 0;
+}
+.LinhasFilmes:hover .icons--left,
+.LinhasFilmes:hover .icons--right{
+    opacity: 1;
+}
+

@@ -1,0 +1,80 @@
+.destaque{
+    height: 100vh;
+}
+.destaque--Vertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top,#111 10%,transparent 90%);
+}
+
+.destaque--Horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right,#111 30%,transparent 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 250px;
+    padding-top: 70px;
+}
+
+.destaque--Nome{
+    font-size: 60px;
+    font-weight: bold;
+    max-width: 30%;
+}
+
+.destaque--infos{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.destaque--pontos, .destaque--ano, .destaque--temporadas{
+    display: inline-block;
+    margin-right: 15px;
+}
+.destaque--pontos{
+    color: #46d369
+}
+
+.destaque--descricao{
+    margin-top: 15px;
+    font-size: 20px;
+    color:#999;
+    max-width: 30%;
+}
+
+.destaque--butoes{
+    margin-top: 15px;
+}
+
+.butao--assistir, .butao--minhaLista{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.2s;
+}
+.butao--assistir:hover, .butao--minhaLista:hover{
+    opacity: 0.7;
+}
+.butao--assistir{
+    background-color: #fff;
+    color: #000;
+}
+
+.butao--minhaLista{
+    background-color: #333;
+    color: #fff;
+}
+
+.destaque--generos{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #999
+}
