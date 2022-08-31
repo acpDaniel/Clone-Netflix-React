@@ -8,7 +8,7 @@ Clone da página principal do netflix
 ![image](https://user-images.githubusercontent.com/100088582/187762285-b5a179ab-04ec-4097-a27b-8733880bb7ee.png)
 
 <p align ="center>
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/100088582/187765655-2a4ee1da-e879-469d-8ae0-bb1fd23cec6a.gif)/>
+teste
 </p>
                                                                                                                   
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/100088582/187765655-2a4ee1da-e879-469d-8ae0-bb1fd23cec6a.gif)
